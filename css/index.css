@@ -1,0 +1,13 @@
+.container > .row {
+    height: 300px;
+}
+@media (max-width: 1200px) {
+    .container > .row {
+        height: 200px;
+    }
+}
+@media (max-width: 768px) {
+    .container > .row {
+        height: 150px;
+    }
+}
